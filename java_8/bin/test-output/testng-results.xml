@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[skip button method ]]>
+    </line>
+    <line>
+      <![CDATA[Popup is moved]]>
+    </line>
+    <line>
+      <![CDATA[QR Code Test]]>
+    </line>
+    <line>
+      <![CDATA[Wallet is clicked]]>
+    </line>
+    <line>
+      <![CDATA[QR Code is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Wrong Pin Test]]>
+    </line>
+    <line>
+      <![CDATA[Yoroi mobile is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Back]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Choose
+wallet]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Generate Hash
+code and PIN]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Paste hash
+code]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Enter PIN]]>
+    </line>
+    <line>
+      <![CDATA[Enter your PIN code]]>
+    </line>
+    <line>
+      <![CDATA[This PIN will be used to confirm your voting actions.]]>
+    </line>
+    <line>
+      <![CDATA[Memorize or keep a secure copy of your PIN. If you forget your PIN, you will not be able to cast your votes.]]>
+    </line>
+    <line>
+      <![CDATA[Pin Code]]>
+    </line>
+    <line>
+      <![CDATA[Confirm is still visible]]>
+    </line>
+    <line>
+      <![CDATA[Confirm is still visible]]>
+    </line>
+    <line>
+      <![CDATA[Yoroi mobile is clicked!]]>
+    </line>
+    <line>
+      <![CDATA[Ready to paste hash code is clicked!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-14T17:41:22 CEST" name="Default suite" finished-at="2022-09-14T17:46:01 CEST" duration-ms="278925">
+    <groups>
+    </groups>
+    <test started-at="2022-09-14T17:41:22 CEST" name="Default test" finished-at="2022-09-14T17:46:01 CEST" duration-ms="278925">
+      <class name="android.ConnectingToWalletTest">
+        <test-method signature="connectToWalletTest()[pri:0, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:41:23 CEST" name="connectToWalletTest" finished-at="2022-09-14T17:42:20 CEST" duration-ms="57442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToWalletTest -->
+        <test-method signature="goToDashboardTest()[pri:1, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:42:22 CEST" name="goToDashboardTest" description="go to Dashboard" finished-at="2022-09-14T17:42:52 CEST" duration-ms="30096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[skip button method ]]>
+            </line>
+            <line>
+              <![CDATA[Popup is moved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToDashboardTest -->
+        <test-method signature="qRCodeTest()[pri:2, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:42:52 CEST" name="qRCodeTest" description="QR Code test" finished-at="2022-09-14T17:43:13 CEST" duration-ms="20290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[QR Code Test]]>
+            </line>
+            <line>
+              <![CDATA[Wallet is clicked]]>
+            </line>
+            <line>
+              <![CDATA[QR Code is clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- qRCodeTest -->
+        <test-method signature="wrongPinTypeTest()[pri:3, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:43:13 CEST" name="wrongPinTypeTest" description="wrong pin in test" finished-at="2022-09-14T17:43:51 CEST" duration-ms="38329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong Pin Test]]>
+            </line>
+            <line>
+              <![CDATA[Yoroi mobile is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Back]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Choose
+wallet]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Generate Hash
+code and PIN]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Paste hash
+code]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Enter PIN]]>
+            </line>
+            <line>
+              <![CDATA[Enter your PIN code]]>
+            </line>
+            <line>
+              <![CDATA[This PIN will be used to confirm your voting actions.]]>
+            </line>
+            <line>
+              <![CDATA[Memorize or keep a secure copy of your PIN. If you forget your PIN, you will not be able to cast your votes.]]>
+            </line>
+            <line>
+              <![CDATA[Pin Code]]>
+            </line>
+            <line>
+              <![CDATA[Confirm is still visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wrongPinTypeTest -->
+        <test-method signature="dotInPinTest()[pri:4, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:43:51 CEST" name="dotInPinTest" description="Pin should not allow dots" finished-at="2022-09-14T17:44:08 CEST" duration-ms="17114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dotInPinTest -->
+        <test-method signature="wrongHashCodeTest()[pri:5, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:44:08 CEST" name="wrongHashCodeTest" description="Wrong Wallet Hach Code" finished-at="2022-09-14T17:44:38 CEST" duration-ms="29782" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Confirm is still visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wrongHashCodeTest -->
+        <test-method signature="incopmpleteConnetion()[pri:6, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:44:38 CEST" name="incopmpleteConnetion" description="Incomplete Connection" finished-at="2022-09-14T17:45:26 CEST" duration-ms="48391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incopmpleteConnetion -->
+        <test-method signature="successfullConnectTest()[pri:7, instance:android.ConnectingToWalletTest@495ee280]" started-at="2022-09-14T17:45:26 CEST" name="successfullConnectTest" description="Pin and hash are good" finished-at="2022-09-14T17:46:01 CEST" duration-ms="34752" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Yoroi mobile is clicked!]]>
+            </line>
+            <line>
+              <![CDATA[Ready to paste hash code is clicked!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfullConnectTest -->
+      </class> <!-- android.ConnectingToWalletTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

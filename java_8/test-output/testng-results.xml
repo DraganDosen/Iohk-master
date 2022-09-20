@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[skip button method ]]>
+    </line>
+    <line>
+      <![CDATA[Popup is moved]]>
+    </line>
+    <line>
+      <![CDATA[Fund9]]>
+    </line>
+    <line>
+      <![CDATA[Welcome to Catalyst!]]>
+    </line>
+    <line>
+      <![CDATA[Your votes decide which project ideas get funding to solve real world problems.]]>
+    </line>
+    <line>
+      <![CDATA[To vote, please CONNECT A REGISTERED WALLET.]]>
+    </line>
+    <line>
+      <![CDATA[Take a look at the Voter Guide!]]>
+    </line>
+    <line>
+      <![CDATA[Voting Power]]>
+    </line>
+    <line>
+      <![CDATA[Voting power comes from the balance snapshot Jan 5th, 2023 11:00 UTC and will display how much Voting Power you have only once voting starts.]]>
+    </line>
+    <line>
+      <![CDATA[How does it work?]]>
+    </line>
+    <line>
+      <![CDATA[Voting has started!]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Proposals]]>
+    </line>
+    <line>
+      <![CDATA[My Selection]]>
+    </line>
+    <line>
+      <![CDATA[Cast Votes]]>
+    </line>
+    <line>
+      <![CDATA[Help & Support]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard has all text as expected!]]>
+    </line>
+    <line>
+      <![CDATA[View My Selection is visible]]>
+    </line>
+    <line>
+      <![CDATA[No votes selected]]>
+    </line>
+    <line>
+      <![CDATA[Тest is out of My Selection]]>
+    </line>
+    <line>
+      <![CDATA[View Cast Votes is visible]]>
+    </line>
+    <line>
+      <![CDATA[Cast Votes is empty]]>
+    </line>
+    <line>
+      <![CDATA[Тest is out of Cast Votes]]>
+    </line>
+    <line>
+      <![CDATA[View Help & Support is visible]]>
+    </line>
+    <line>
+      <![CDATA[Тest is out of Help and Support]]>
+    </line>
+    <line>
+      <![CDATA[Proposals is opened]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-17T22:41:25 CEST" name="Default suite" finished-at="2022-09-17T22:42:46 CEST" duration-ms="80841">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T22:41:25 CEST" name="Default test" finished-at="2022-09-17T22:42:46 CEST" duration-ms="80841">
+      <class name="android.SmokeTest">
+        <test-method signature="smokeTest()[pri:0, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:41:25 CEST" name="smokeTest" finished-at="2022-09-17T22:41:50 CEST" duration-ms="24921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method signature="goToDashboardTest()[pri:1, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:41:51 CEST" name="goToDashboardTest" description="Go To Dashboard" finished-at="2022-09-17T22:42:20 CEST" duration-ms="28743" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[skip button method ]]>
+            </line>
+            <line>
+              <![CDATA[Popup is moved]]>
+            </line>
+            <line>
+              <![CDATA[Fund9]]>
+            </line>
+            <line>
+              <![CDATA[Welcome to Catalyst!]]>
+            </line>
+            <line>
+              <![CDATA[Your votes decide which project ideas get funding to solve real world problems.]]>
+            </line>
+            <line>
+              <![CDATA[To vote, please CONNECT A REGISTERED WALLET.]]>
+            </line>
+            <line>
+              <![CDATA[Take a look at the Voter Guide!]]>
+            </line>
+            <line>
+              <![CDATA[Voting Power]]>
+            </line>
+            <line>
+              <![CDATA[Voting power comes from the balance snapshot Jan 5th, 2023 11:00 UTC and will display how much Voting Power you have only once voting starts.]]>
+            </line>
+            <line>
+              <![CDATA[How does it work?]]>
+            </line>
+            <line>
+              <![CDATA[Voting has started!]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Proposals]]>
+            </line>
+            <line>
+              <![CDATA[My Selection]]>
+            </line>
+            <line>
+              <![CDATA[Cast Votes]]>
+            </line>
+            <line>
+              <![CDATA[Help & Support]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard has all text as expected!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToDashboardTest -->
+        <test-method signature="goToMySelectionTest()[pri:2, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:42:20 CEST" name="goToMySelectionTest" description="Go To MySelection" finished-at="2022-09-17T22:42:26 CEST" duration-ms="6478" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[View My Selection is visible]]>
+            </line>
+            <line>
+              <![CDATA[No votes selected]]>
+            </line>
+            <line>
+              <![CDATA[Тest is out of My Selection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToMySelectionTest -->
+        <test-method signature="CastVotesTest()[pri:3, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:42:26 CEST" name="CastVotesTest" description="Go To Cast Votes" finished-at="2022-09-17T22:42:36 CEST" duration-ms="9497" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[View Cast Votes is visible]]>
+            </line>
+            <line>
+              <![CDATA[Cast Votes is empty]]>
+            </line>
+            <line>
+              <![CDATA[Тest is out of Cast Votes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CastVotesTest -->
+        <test-method signature="helpAndSupportTest()[pri:3, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:42:36 CEST" name="helpAndSupportTest" description="Go To Help and Support" finished-at="2022-09-17T22:42:43 CEST" duration-ms="6943" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[View Help & Support is visible]]>
+            </line>
+            <line>
+              <![CDATA[Тest is out of Help and Support]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- helpAndSupportTest -->
+        <test-method signature="goToProposalTest()[pri:6, instance:android.SmokeTest@6f8e8894]" started-at="2022-09-17T22:42:43 CEST" name="goToProposalTest" description="Go To proposal" finished-at="2022-09-17T22:42:46 CEST" duration-ms="2966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Proposals is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToProposalTest -->
+      </class> <!-- android.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

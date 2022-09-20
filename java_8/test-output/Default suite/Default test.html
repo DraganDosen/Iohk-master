@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 17 22:41:25 CEST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>80 seconds (80841 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='android.SmokeTest.CastVotesTest()'><b>CastVotesTest</b><br>Test class: android.SmokeTest<br>Test method: Go To Cast Votes<br/>
+<a href="#Output-1449987177" onClick='toggleBox("Output-1449987177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1449987177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1449987177">
+View Cast Votes is visible<br/>
+Cast Votes is empty<br/>
+?est is out of Cast Votes<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+<tr>
+<td title='android.SmokeTest.goToDashboardTest()'><b>goToDashboardTest</b><br>Test class: android.SmokeTest<br>Test method: Go To Dashboard<br/>
+<a href="#Output-1340086275" onClick='toggleBox("Output-1340086275", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1340086275" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1340086275">
+skip button method <br/>
+Popup is moved<br/>
+Fund9<br/>
+Welcome to Catalyst!<br/>
+Your votes decide which project ideas get funding to solve real world problems.<br/>
+To vote, please CONNECT A REGISTERED WALLET.<br/>
+Take a look at the Voter Guide!<br/>
+Voting Power<br/>
+Voting power comes from the balance snapshot Jan 5th, 2023 11:00 UTC and will display how much Voting Power you have only once voting starts.<br/>
+How does it work?<br/>
+Voting has started!<br/>
+Dashboard<br/>
+Proposals<br/>
+My Selection<br/>
+Cast Votes<br/>
+Help & Support<br/>
+Dashboard has all text as expected!<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+<tr>
+<td title='android.SmokeTest.goToMySelectionTest()'><b>goToMySelectionTest</b><br>Test class: android.SmokeTest<br>Test method: Go To MySelection<br/>
+<a href="#Output-2054077982" onClick='toggleBox("Output-2054077982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2054077982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2054077982">
+View My Selection is visible<br/>
+No votes selected<br/>
+?est is out of My Selection<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+<tr>
+<td title='android.SmokeTest.goToProposalTest()'><b>goToProposalTest</b><br>Test class: android.SmokeTest<br>Test method: Go To proposal<br/>
+<a href="#Output-666911607" onClick='toggleBox("Output-666911607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666911607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666911607">
+Proposals is opened<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+<tr>
+<td title='android.SmokeTest.helpAndSupportTest()'><b>helpAndSupportTest</b><br>Test class: android.SmokeTest<br>Test method: Go To Help and Support<br/>
+<a href="#Output-99695585" onClick='toggleBox("Output-99695585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99695585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99695585">
+View Help & Support is visible<br/>
+?est is out of Help and Support<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+<tr>
+<td title='android.SmokeTest.smokeTest()'><b>smokeTest</b><br>Test class: android.SmokeTest</td>
+<td></td>
+<td>24</td>
+<td>android.SmokeTest@6f8e8894</td></tr>
+</table><p>
+</body>
+</html>

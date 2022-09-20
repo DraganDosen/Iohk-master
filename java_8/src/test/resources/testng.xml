@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Default suite" guice-stage="DEVELOPMENT">
+
+ <test name="AA_Proposal_Test" verbose="2">
+    <classes>
+      <class name="android.ProposalTest"/>
+    </classes>
+  </test> 
+  
+  <test name="AB_Wallet_Test" verbose="2">
+    <classes>
+      <class name="android.ConnectingToWalletTest"/>
+    </classes>
+   </test>
+   <test name="AC_MySelection_Test" verbose="2">
+    <classes>
+      <class name="android.MySelectionTest"/>
+    </classes>
+   </test> 
+   <test name="AD_CastVotes_Test" verbose="2">
+    <classes>
+      <class name="android.CastVotesTest"/>
+    </classes>
+   </test>
+    <test name="AE_HelpAndSupport_Test" verbose="2">
+    <classes>
+      <class name="android.HelpAndSupportTest"/>
+    </classes>
+   </test> 
+    <test name="AF_Advisors_Review_Test" verbose="2">
+    <classes>
+      <class name="android.AdvisorsReviewTest"/>
+    </classes>
+   </test> 
+ 
+  
+     
+         
+  
+  <!-- Default test -->
+</suite> <!-- Default suite -->

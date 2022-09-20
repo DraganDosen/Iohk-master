@@ -1,0 +1,10 @@
+Steps for working with Tests:
+Install Eclipse
+Click Help->Eclipse MarketPlace
+Install TestNG
+Right Click on java8 and select convert to TestNG
+For run test right click on test and select run as TestNG
+
+For upload APK for testing on BrowserStack use link https://www.browserstack.com/app-live/rest-api
+go to Upload app from a Public Location copy link
+Open PostMan click import, raw text and copy previous link and post Result is id of uploaded APK and that is need to copy to SecretsKey
